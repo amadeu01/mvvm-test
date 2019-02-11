@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		653F93BA221223B0003EA57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93B9221223B0003EA57A /* AppDelegate.swift */; };
-		653F93BC221223B0003EA57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93BB221223B0003EA57A /* ViewController.swift */; };
-		653F93BF221223B0003EA57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653F93BD221223B0003EA57A /* Main.storyboard */; };
 		653F93C2221223B0003EA57A /* MVVM_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 653F93C0221223B0003EA57A /* MVVM_Test.xcdatamodeld */; };
 		653F93C4221223B2003EA57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653F93C3221223B2003EA57A /* Assets.xcassets */; };
 		653F93C7221223B2003EA57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653F93C5221223B2003EA57A /* LaunchScreen.storyboard */; };
 		653F93D2221223B2003EA57A /* MVVM_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93D1221223B2003EA57A /* MVVM_TestUITests.swift */; };
+		653F93DE221227C3003EA57A /* AppCoordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93DD221227C3003EA57A /* AppCoordinators.swift */; };
+		653F93E022122DBA003EA57A /* SaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93DF22122DBA003EA57A /* SaveViewModel.swift */; };
+		653F93E322122DEA003EA57A /* SaveStuffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93E222122DEA003EA57A /* SaveStuffViewController.swift */; };
+		653F93E522122EDE003EA57A /* AutoLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93E422122EDE003EA57A /* AutoLayoutExtension.swift */; };
+		653F93EA22123130003EA57A /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93E922123130003EA57A /* NiblessViewController.swift */; };
+		653F93EC22123217003EA57A /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93EB22123217003EA57A /* SaveView.swift */; };
+		653F93EE221232BD003EA57A /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F93ED221232BD003EA57A /* NiblessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +34,6 @@
 /* Begin PBXFileReference section */
 		653F93B6221223B0003EA57A /* MVVM Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653F93B9221223B0003EA57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		653F93BB221223B0003EA57A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		653F93BE221223B0003EA57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		653F93C1221223B0003EA57A /* MVVM_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_Test.xcdatamodel; sourceTree = "<group>"; };
 		653F93C3221223B2003EA57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653F93C6221223B2003EA57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,14 @@
 		653F93CD221223B2003EA57A /* MVVM TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653F93D1221223B2003EA57A /* MVVM_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_TestUITests.swift; sourceTree = "<group>"; };
 		653F93D3221223B2003EA57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653F93DC221223C4003EA57A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		653F93DD221227C3003EA57A /* AppCoordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinators.swift; sourceTree = "<group>"; };
+		653F93DF22122DBA003EA57A /* SaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewModel.swift; sourceTree = "<group>"; };
+		653F93E222122DEA003EA57A /* SaveStuffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStuffViewController.swift; sourceTree = "<group>"; };
+		653F93E422122EDE003EA57A /* AutoLayoutExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutExtension.swift; sourceTree = "<group>"; };
+		653F93E922123130003EA57A /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
+		653F93EB22123217003EA57A /* SaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
+		653F93ED221232BD003EA57A /* NiblessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 		653F93AD221223B0003EA57A = {
 			isa = PBXGroup;
 			children = (
+				653F93DC221223C4003EA57A /* README.md */,
 				653F93B8221223B0003EA57A /* MVVM Test */,
 				653F93D0221223B2003EA57A /* MVVM TestUITests */,
 				653F93B7221223B0003EA57A /* Products */,
@@ -79,13 +91,16 @@
 		653F93B8221223B0003EA57A /* MVVM Test */ = {
 			isa = PBXGroup;
 			children = (
+				653F93DD221227C3003EA57A /* AppCoordinators.swift */,
+				653F93E122122DBE003EA57A /* save-stuff */,
 				653F93B9221223B0003EA57A /* AppDelegate.swift */,
-				653F93BB221223B0003EA57A /* ViewController.swift */,
-				653F93BD221223B0003EA57A /* Main.storyboard */,
 				653F93C3221223B2003EA57A /* Assets.xcassets */,
 				653F93C5221223B2003EA57A /* LaunchScreen.storyboard */,
 				653F93C8221223B2003EA57A /* Info.plist */,
 				653F93C0221223B0003EA57A /* MVVM_Test.xcdatamodeld */,
+				653F93E422122EDE003EA57A /* AutoLayoutExtension.swift */,
+				653F93E922123130003EA57A /* NiblessViewController.swift */,
+				653F93ED221232BD003EA57A /* NiblessView.swift */,
 			);
 			path = "MVVM Test";
 			sourceTree = "<group>";
@@ -97,6 +112,16 @@
 				653F93D3221223B2003EA57A /* Info.plist */,
 			);
 			path = "MVVM TestUITests";
+			sourceTree = "<group>";
+		};
+		653F93E122122DBE003EA57A /* save-stuff */ = {
+			isa = PBXGroup;
+			children = (
+				653F93DF22122DBA003EA57A /* SaveViewModel.swift */,
+				653F93E222122DEA003EA57A /* SaveStuffViewController.swift */,
+				653F93EB22123217003EA57A /* SaveView.swift */,
+			);
+			path = "save-stuff";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +207,6 @@
 			files = (
 				653F93C7221223B2003EA57A /* LaunchScreen.storyboard in Resources */,
 				653F93C4221223B2003EA57A /* Assets.xcassets in Resources */,
-				653F93BF221223B0003EA57A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653F93EE221232BD003EA57A /* NiblessView.swift in Sources */,
 				653F93C2221223B0003EA57A /* MVVM_Test.xcdatamodeld in Sources */,
-				653F93BC221223B0003EA57A /* ViewController.swift in Sources */,
+				653F93E022122DBA003EA57A /* SaveViewModel.swift in Sources */,
+				653F93E522122EDE003EA57A /* AutoLayoutExtension.swift in Sources */,
+				653F93EC22123217003EA57A /* SaveView.swift in Sources */,
+				653F93E322122DEA003EA57A /* SaveStuffViewController.swift in Sources */,
+				653F93DE221227C3003EA57A /* AppCoordinators.swift in Sources */,
 				653F93BA221223B0003EA57A /* AppDelegate.swift in Sources */,
+				653F93EA22123130003EA57A /* NiblessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +255,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		653F93BD221223B0003EA57A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				653F93BE221223B0003EA57A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		653F93C5221223B2003EA57A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
